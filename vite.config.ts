@@ -6,7 +6,7 @@ export default defineConfig(({ command }) => {
   const isBuild = command === 'build';
 
   return {
-    base: isBuild ? '/resportfolio/' : '/',
+    base: '/resportfolio/',
     plugins: [react()],
     server: {
       port: 3000,   // 👨‍💻 Local dev server port
