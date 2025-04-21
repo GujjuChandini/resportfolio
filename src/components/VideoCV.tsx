@@ -48,7 +48,7 @@ const VideoCV = () => {
             <video
               ref={videoRef}
               className="w-full h-full object-cover"
-              src={`${BASE_URL}vite.mp4`}
+              src="/resportfolio/vite.mp4"
               title="Video CV"
               playsInline
             />
